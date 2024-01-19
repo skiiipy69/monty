@@ -74,12 +74,12 @@ void rotl(stack_t **stack, __attribute__((unused))unsigned int ln)
 
 
 /**
- * rot_right - Rotates the last node of the stack to the top.
+ * rotr - Rotates the last node of the stack to the top.
  *
  * @stack: Pointer to a pointer pointing to top node of the stack.
  * @ln: Interger representing the line number of of the opcode.
  */
-void rot_right(stack_t **stack, __attribute__((unused))unsigned int ln)
+void rotr(stack_t **stack, __attribute__((unused))unsigned int ln)
 {
 	stack_t *tmp;
 

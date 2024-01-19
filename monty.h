@@ -66,7 +66,7 @@ void mod_nodes(stack_t **, unsigned int);
 void print_char(stack_t **, unsigned int);
 void print_str(stack_t **, unsigned int);
 void rotl(stack_t **, unsigned int);
-void rot_right(stack_t **, unsigned int);
+void rotr(stack_t **, unsigned int);
 void err(int error_code, ...);
 void more_err(int error_code, ...);
 void str_err(int error_code, ...);
