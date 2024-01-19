@@ -49,12 +49,12 @@ void print_str(stack_t **stack, __attribute__((unused))unsigned int ln)
 }
 
 /**
- * rot_left - Rotates the first node of the stack to the bottom.
+ * rotl - Rotates the first node of the stack to the bottom.
  *
  * @stack: Pointer to a pointer pointing to top node of the stack.
  * @ln: Interger representing the line number of of the opcode.
  */
-void rot_left(stack_t **stack, __attribute__((unused))unsigned int ln)
+void rotl(stack_t **stack, __attribute__((unused))unsigned int ln)
 {
 	stack_t *tmp;
 
